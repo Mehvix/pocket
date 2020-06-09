@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
       <config projectName="Pocket" targetName="Pocket" />
@@ -11,7 +20,20 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb708018-ad30-4953-afbc-8dd5463b5d23" name="Default Changelist" comment="" />
+    <list default="true" id="cb708018-ad30-4953-afbc-8dd5463b5d23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Decrypter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Pocket.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Decrypter/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Decrypter/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Base64.h" beforeDir="false" afterPath="$PROJECT_DIR$/Base64.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Helper.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IO.h" beforeDir="false" afterPath="$PROJECT_DIR$/IO.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyboardHook.h" beforeDir="false" afterPath="$PROJECT_DIR$/KeyboardHook.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +43,11 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1d3smpWMvcdObehHzC9auRb9Wxn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -29,6 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
   </component>
@@ -52,40 +79,57 @@
       <workItem from="1591665273451" duration="20000" />
       <workItem from="1591666071194" duration="30000" />
       <workItem from="1591667314876" duration="899000" />
+      <workItem from="1591740752176" duration="1844000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="1007" y="416" key="FileChooserDialogImpl" timestamp="1591665288917">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1007" y="416" key="FileChooserDialogImpl/0.0.2560.1440/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/2250.-2360.1024.1280/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591665288917" />
-    <state width="2509" height="390" key="GridCell.Tab.0.bottom" timestamp="1591668216047">
+    <state width="2492" height="387" key="GridCell.Tab.0.bottom" timestamp="1591741743404">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2492" height="387" key="GridCell.Tab.0.bottom/0.0.2560.1440/2250.-2360.1024.1280/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591741743404" />
     <state width="2509" height="390" key="GridCell.Tab.0.bottom/0.0.2560.1440/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/2250.-2360.1024.1280/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591668216047" />
-    <state width="2509" height="390" key="GridCell.Tab.0.center" timestamp="1591668216047">
+    <state width="2492" height="387" key="GridCell.Tab.0.center" timestamp="1591741743403">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2492" height="387" key="GridCell.Tab.0.center/0.0.2560.1440/2250.-2360.1024.1280/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591741743403" />
     <state width="2509" height="390" key="GridCell.Tab.0.center/0.0.2560.1440/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/2250.-2360.1024.1280/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591668216047" />
-    <state width="2509" height="390" key="GridCell.Tab.0.left" timestamp="1591668216047">
+    <state width="2492" height="387" key="GridCell.Tab.0.left" timestamp="1591741743403">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2492" height="387" key="GridCell.Tab.0.left/0.0.2560.1440/2250.-2360.1024.1280/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591741743403" />
     <state width="2509" height="390" key="GridCell.Tab.0.left/0.0.2560.1440/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/2250.-2360.1024.1280/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591668216047" />
-    <state width="2509" height="390" key="GridCell.Tab.0.right" timestamp="1591668216047">
+    <state width="2492" height="387" key="GridCell.Tab.0.right" timestamp="1591741743403">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2492" height="387" key="GridCell.Tab.0.right/0.0.2560.1440/2250.-2360.1024.1280/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591741743403" />
     <state width="2509" height="390" key="GridCell.Tab.0.right/0.0.2560.1440/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/2250.-2360.1024.1280/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591668216047" />
     <state x="92" y="92" width="2376" height="1256" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591667816675">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="92" y="92" width="2376" height="1256" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1440/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/2250.-2360.1024.1280/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591667816675" />
-    <state x="914" y="388" width="732" height="664" key="find.popup" timestamp="1591667503454">
+    <state x="914" y="388" width="732" height="664" key="find.popup" timestamp="1591742496165">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="914" y="388" width="732" height="664" key="find.popup/0.0.2560.1440/2250.-2360.1024.1280/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591742496165" />
     <state x="914" y="388" width="732" height="664" key="find.popup/0.0.2560.1440/342.-1080.1920.1080/2560.0.1080.1920/-1338.-1050.1680.1050/2262.-900.1440.900/2250.-2360.1024.1280/-1080.0.1080.1920@0.0.2560.1440" timestamp="1591667503454" />
   </component>
 </project>

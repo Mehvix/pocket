@@ -42,7 +42,7 @@ namespace Helper {
         }
 
         string getTime(const string &separator = ":") const{
-            return  string(hour < 10 ? "0" : "") + toString(hour) + separator + string(min < 10 ? "0" : "") + toString(min) + separator + string( sec < 10 ? separator : "") + toString(sec);
+            return  string(hour < 10 ? "0" : "") + toString(hour) + separator + string(min < 10 ? "0" : "") + toString(min) + separator + string( sec < 10 ? "0" : "") + toString(sec);
         }
 
         string getDateTime(const string &separator = ":") const {

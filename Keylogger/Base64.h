@@ -33,7 +33,7 @@ namespace Base64 {
     const string &BASE64_CODES = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
     string base64_encode(const string &s){
-        /* Example:
+         /* Example:
          Input:             Man
          Bits:              01001101 01100001 01101110
          ---

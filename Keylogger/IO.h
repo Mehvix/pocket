@@ -43,8 +43,9 @@ namespace IO{
             ofstream file(path+name);
             if(!file) return "";
             ostringstream s;
-            s << "[" << dt.getDateTime() << "]" << endl << "t" << endl;
+            s << "[" << dt.getDateTime() << "]" << endl << t << endl;
             string data = Base64::encrypt(s.str());
+//            string data = s.str();
             file << data;
             if(!file) return "";
             file.close();
