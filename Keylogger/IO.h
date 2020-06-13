@@ -19,7 +19,7 @@ namespace IO{
     }
 
     bool mkDir(const string& path){
-        return (bool)CreateDirectory(path.c_str(), NULL) || GetLastError() == ERROR_ALREADY_EXISTS;
+        return (bool)CreateDirectory(path.c_str(), nullptr) || GetLastError() == ERROR_ALREADY_EXISTS;
     }
 
     bool mkDirRecur(string path){

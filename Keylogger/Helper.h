@@ -34,7 +34,7 @@ namespace Helper {
 
 
         DateTime now() const {
-            return DateTime();
+            return {};
         }
 
         string getDate() const {
