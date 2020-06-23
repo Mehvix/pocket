@@ -15,14 +15,24 @@
 #include "Determination.cpp"
 #include "Elevation.cpp"
 
-bool IsRunAsAdministrator();
-void ElevateNow();
 
 using namespace std;
 
 
 int main() {
     MSG msg;
+    #define APPLICATION_INSTANCE_MUTEX_NAME "{UE9DS0VU}"
+
+    //Make sure at most one instance of the tool is running
+    HANDLE hMutexOneInstance(::CreateMutex( NULL, TRUE, APPLICATION_INSTANCE_MUTEX_NAME));
+    bool bAlreadyRunning((::GetLastError() == ERROR_ALREADY_EXISTS));
+    if (hMutexOneInstance == NULL || bAlreadyRunning) {
+        if(hMutexOneInstance) {
+            ::ReleaseMutex(hMutexOneInstance);
+            ::CloseHandle(hMutexOneInstance);
+        }
+        throw std::exception();
+    }
 
     if(IsRunAsAdministrator()) {}
     else ElevateNow();

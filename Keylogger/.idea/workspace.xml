@@ -22,9 +22,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cb708018-ad30-4953-afbc-8dd5463b5d23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helper.h" beforeDir="false" afterPath="$PROJECT_DIR$/Helper.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IO.h" beforeDir="false" afterPath="$PROJECT_DIR$/IO.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KeyboardHook.h" beforeDir="false" afterPath="$PROJECT_DIR$/KeyboardHook.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SendMail.h" beforeDir="false" afterPath="$PROJECT_DIR$/SendMail.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
@@ -82,6 +79,10 @@
       <workItem from="1591938388228" duration="48000" />
       <workItem from="1591938451173" duration="1815000" />
       <workItem from="1591943518947" duration="394000" />
+      <workItem from="1592094326426" duration="602000" />
+      <workItem from="1592095370694" duration="57000" />
+      <workItem from="1592871774076" duration="168000" />
+      <workItem from="1592872780023" duration="578000" />
     </task>
     <servers />
   </component>
