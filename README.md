@@ -1,4 +1,4 @@
-# Pocket
+# pocket
 
 Low-level keylogger with Base64 encryption and emailing capabilities
 
